@@ -1,0 +1,793 @@
+{
+    "menuitems": [
+        {
+            "groupLabel": "Australasia",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Adelaide",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "auad"
+                },
+                {
+                    "itemLabel": "Brisbane",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "aubr"
+                },
+                {
+                    "itemLabel": "Sydney - 1",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "ausy"
+                },
+                {
+                    "itemLabel": "Sydney - 2",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "ausy2"
+                },
+                {
+                    "itemLabel": "Perth",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "aupe"
+                },
+                {
+                    "itemLabel": "Melbourne",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "aume"
+                },
+                {
+                    "itemLabel": "Woolloomooloo",
+                    "itemIconPath": "/media/flags/australia.svg",
+                    "itemVpnCode": "auwo"
+                },
+                {
+                    "itemLabel": "New Zealand",
+                    "itemIconPath": "/media/flags/newzealand.svg",
+                    "itemVpnCode": "nz"
+                }
+            ]
+        },
+        {
+            "groupLabel": "seperator"
+        },
+        {
+            "groupLabel": "United Kingdom",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "London",
+                    "itemIconPath": "/media/flags/unitedkingdom.svg",
+                    "itemVpnCode": "uklo"
+                },
+                {
+                    "itemLabel": "Docklands",
+                    "itemIconPath": "/media/flags/unitedkingdom.svg",
+                    "itemVpnCode": "ukdo"
+                },
+                {
+                    "itemLabel": "East London",
+                    "itemIconPath": "/media/flags/unitedkingdom.svg",
+                    "itemVpnCode": "ukel"
+                },
+                {
+                    "itemLabel": "Wembly",
+                    "itemIconPath": "/media/flags/unitedkingdom.svg",
+                    "itemVpnCode": "ukwe"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Germany",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Frankfurt - 1",
+                    "itemIconPath": "/media/flags/germany.svg",
+                    "itemVpnCode": "defr1"
+                },
+                {
+                    "itemLabel": "Frankfurt - 3",
+                    "itemIconPath": "/media/flags/germany.svg",
+                    "itemVpnCode": "defr3"
+                },
+                {
+                    "itemLabel": "Nuremberg",
+                    "itemIconPath": "/media/flags/germany.svg",
+                    "itemVpnCode": "denu"
+                }
+            ]
+        },
+        {
+            "groupLabel": "France",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Marseille",
+                    "itemIconPath": "/media/flags/france.svg",
+                    "itemVpnCode": "frma"
+                },
+                {
+                    "itemLabel": "Paris",
+                    "itemIconPath": "/media/flags/france.svg",
+                    "itemVpnCode": "frpa2"
+                },
+                {
+                    "itemLabel": "Strasbourg",
+                    "itemIconPath": "/media/flags/france.svg",
+                    "itemVpnCode": "frpst"
+                },
+                {
+                    "itemLabel": "Alsace",
+                    "itemIconPath": "/media/flags/france.svg",
+                    "itemVpnCode": "fral"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Netherlands",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "The Hague",
+                    "itemIconPath": "/media/flags/netherlands.svg",
+                    "itemVpnCode": "nlth"
+                },
+                {
+                    "itemLabel": "Amsterdam",
+                    "itemIconPath": "/media/flags/netherlands.svg",
+                    "itemVpnCode": "nlam"
+                },
+                {
+                    "itemLabel": "Rotterdam",
+                    "itemIconPath": "/media/flags/netherlands.svg",
+                    "itemVpnCode": "nlro"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Spain",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Madrid",
+                    "itemIconPath": "/media/flags/spain.svg",
+                    "itemVpnCode": "esma"
+                },
+                {
+                    "itemLabel": "Barcelona - 1",
+                    "itemIconPath": "/media/flags/spain.svg",
+                    "itemVpnCode": "esba"
+                },
+                {
+                    "itemLabel": "Barcelona - 2",
+                    "itemIconPath": "/media/flags/spain.svg",
+                    "itemVpnCode": "esba2"
+                }
+            ]
+        },
+        {
+            "groupLabel": "seperator"
+        },
+        {
+            "groupLabel": "Europe - Other",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Italy",
+                    "itemIconPath": "/media/flags/italy.svg",
+                    "itemVpnCode": "itco"
+                },
+                {
+                    "itemLabel": "Denmark",
+                    "itemIconPath": "/media/flags/denmark.svg",
+                    "itemVpnCode": "dk"
+                },
+                {
+                    "itemLabel": "Norway",
+                    "itemIconPath": "/media/flags/norway.svg",
+                    "itemVpnCode": "no"
+                },
+                {
+                    "itemLabel": "Finland",
+                    "itemIconPath": "/media/flags/finland.svg",
+                    "itemVpnCode": "fi"
+                },
+                {
+                    "itemLabel": "Sweden - 1",
+                    "itemIconPath": "/media/flags/sweden.svg",
+                    "itemVpnCode": "se"
+                },
+                {
+                    "itemLabel": "Sweden - 2",
+                    "itemIconPath": "/media/flags/sweden.svg",
+                    "itemVpnCode": "se2"
+                },
+                {
+                    "itemLabel": "Hungary",
+                    "itemIconPath": "/media/flags/hungary.svg",
+                    "itemVpnCode": "hu"
+                },
+                {
+                    "itemLabel": "Slovakia",
+                    "itemIconPath": "/media/flags/slovakia.svg",
+                    "itemVpnCode": "sk"
+                },
+                {
+                    "itemLabel": "Czech Republic",
+                    "itemIconPath": "/media/flags/czechrepublic.svg",
+                    "itemVpnCode": "cz"
+                },
+                {
+                    "itemLabel": "Romania",
+                    "itemIconPath": "/media/flags/romaina.svg",
+                    "itemVpnCode": "ro"
+                },
+                {
+                    "itemLabel": "Iceland",
+                    "itemIconPath": "/media/flags/iceland.svg",
+                    "itemVpnCode": "is"
+                },
+                {
+                    "itemLabel": "Belgium",
+                    "itemIconPath": "/media/flags/belgium.svg",
+                    "itemVpnCode": "be"
+                },
+                {
+                    "itemLabel": "Turkey",
+                    "itemIconPath": "/media/flags/turkey.svg",
+                    "itemVpnCode": "tr"
+                },
+                {
+                    "itemLabel": "Portugal",
+                    "itemIconPath": "/media/flags/portugal.svg",
+                    "itemVpnCode": "pt"
+                },
+                {
+                    "itemLabel": "Austria",
+                    "itemIconPath": "/media/flags/austria.svg",
+                    "itemVpnCode": "at"
+                },
+                {
+                    "itemLabel": "Greece",
+                    "itemIconPath": "/media/flags/greece.svg",
+                    "itemVpnCode": "gr"
+                },
+                {
+                    "itemLabel": "Ireland",
+                    "itemIconPath": "/media/flags/ireland.svg",
+                    "itemVpnCode": "ie"
+                },
+                {
+                    "itemLabel": "Armeina",
+                    "itemIconPath": "/media/flags/armenia.svg",
+                    "itemVpnCode": "am"
+                },
+                {
+                    "itemLabel": "Bulgaria",
+                    "itemIconPath": "/media/flags/bulgaria.svg",
+                    "itemVpnCode": "bg"
+                },
+                {
+                    "itemLabel": "Belarus",
+                    "itemIconPath": "/media/flags/belarus.svg",
+                    "itemVpnCode": "by"
+                },
+                {
+                    "itemLabel": "Ukraine",
+                    "itemIconPath": "/media/flags/ukraine.svg",
+                    "itemVpnCode": "ua"
+                },
+                {
+                    "itemLabel": "Lithuania",
+                    "itemIconPath": "/media/flags/lithuania.svg",
+                    "itemVpnCode": "lt"
+                },
+                {
+                    "itemLabel": "Latvia",
+                    "itemIconPath": "/media/flags/latvia.svg",
+                    "itemVpnCode": "lv"
+                },
+                {
+                    "itemLabel": "Estonia",
+                    "itemIconPath": "/media/flags/estonia.svg",
+                    "itemVpnCode": "ee"
+                },
+                {
+                    "itemLabel": "Andorra",
+                    "itemIconPath": "/media/flags/andorra.svg",
+                    "itemVpnCode": "ad"
+                },
+                {
+                    "itemLabel": "Montenegro",
+                    "itemIconPath": "/media/flags/montenegro.svg",
+                    "itemVpnCode": "me"
+                },
+                {
+                    "itemLabel": "Bosnia and Herzegovina",
+                    "itemIconPath": "/media/flags/bosniaandherzegovina.svg",
+                    "itemVpnCode": "ba"
+                },
+                {
+                    "itemLabel": "Luxembourg",
+                    "itemIconPath": "/media/flags/luxembourg.svg",
+                    "itemVpnCode": "lu"
+                },
+                {
+                    "itemLabel": "Malta",
+                    "itemIconPath": "/media/flags/malta.svg",
+                    "itemVpnCode": "mt"
+                },
+                {
+                    "itemLabel": "Liechtenstein",
+                    "itemIconPath": "/media/flags/liechtenstein.svg",
+                    "itemVpnCode": "li"
+                },
+                {
+                    "itemLabel": "Cyprus",
+                    "itemIconPath": "/media/flags/cyprus.svg",
+                    "itemVpnCode": "cy"
+                },
+                {
+                    "itemLabel": "Albania",
+                    "itemIconPath": "/media/flags/albania.svg",
+                    "itemVpnCode": "al"
+                },
+                {
+                    "itemLabel": "Croatia",
+                    "itemIconPath": "/media/flags/croatia.svg",
+                    "itemVpnCode": "hr"
+                },
+                {
+                    "itemLabel": "Slovenia",
+                    "itemIconPath": "/media/flags/slovenia.svg",
+                    "itemVpnCode": "si"
+                },
+                {
+                    "itemLabel": "Monaco",
+                    "itemIconPath": "/media/flags/monaco.svg",
+                    "itemVpnCode": "mc"
+                },
+                {
+                    "itemLabel": "Jersey",
+                    "itemIconPath": "/media/flags/jersey.svg",
+                    "itemVpnCode": "je"
+                },
+                {
+                    "itemLabel": "North Macedonia",
+                    "itemIconPath": "/media/flags/northmacedonia.svg",
+                    "itemVpnCode": "mk"
+                },
+                {
+                    "itemLabel": "Moldova",
+                    "itemIconPath": "/media/flags/moldova.svg",
+                    "itemVpnCode": "md"
+                },
+                {
+                    "itemLabel": "Serbia",
+                    "itemIconPath": "/media/flags/serbia.svg",
+                    "itemVpnCode": "rs"
+                },
+                {
+                    "itemLabel": "Georgia",
+                    "itemIconPath": "/media/flags/georgia.svg",
+                    "itemVpnCode": "ge"
+                }
+            ]
+        },
+        {
+            "groupLabel": "seperator"
+        },
+        {
+            "groupLabel": "United States of America",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "New York",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usny"
+                },
+                {
+                    "itemLabel": "Washington DC",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "cato2"
+                },
+                {
+                    "itemLabel": "Los Angeles - 1",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usla1"
+                },
+                {
+                    "itemLabel": "Los Angeles - 2",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usla2"
+                },
+                {
+                    "itemLabel": "Los Angeles - 3",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usla3"
+                },
+                {
+                    "itemLabel": "Los Angeles - 5",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usla5"
+                },
+                {
+                    "itemLabel": "New Jersey - 1",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usnj1"
+                },
+                {
+                    "itemLabel": "New Jersey - 2",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usnj2"
+                },
+                {
+                    "itemLabel": "New Jersey - 3",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usnj3"
+                },
+                {
+                    "itemLabel": "San Francisco",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "ussf"
+                },
+                {
+                    "itemLabel": "Chicago",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usch"
+                },
+                {
+                    "itemLabel": "Dallas",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usda"
+                },
+                {
+                    "itemLabel": "Dallas - 2",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usda2"
+                },
+                {
+                    "itemLabel": "Miami",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usmi"
+                },
+                {
+                    "itemLabel": "Miami - 2",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usmi2"
+                },
+                {
+                    "itemLabel": "Denver",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usde"
+                },
+                {
+                    "itemLabel": "Seattle",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usse"
+                },
+                {
+                    "itemLabel": "Salt Lake City",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "ussl1"
+                },
+                {
+                    "itemLabel": "Tampa - 1",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usta1"
+                },
+                {
+                    "itemLabel": "Phoenix",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usph"
+                },
+                {
+                    "itemLabel": "Atlanta",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usat"
+                },
+                {
+                    "itemLabel": "Albuquerque",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "usal"
+                },
+                {
+                    "itemLabel": "Lincoln Park",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "uslp"
+                },
+                {
+                    "itemLabel": "Santa Monica",
+                    "itemIconPath": "/media/flags/unitedstates.svg",
+                    "itemVpnCode": "ussm"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Canada",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Toronto - 1",
+                    "itemIconPath": "/media/flags/canada.svg",
+                    "itemVpnCode": "cato"
+                },
+                {
+                    "itemLabel": "Toronto - 2",
+                    "itemIconPath": "/media/flags/canada.svg",
+                    "itemVpnCode": "cato2"
+                },
+                {
+                    "itemLabel": "Vancouver",
+                    "itemIconPath": "/media/flags/canada.svg",
+                    "itemVpnCode": "cava"
+                },
+                {
+                    "itemLabel": "Montreal",
+                    "itemIconPath": "/media/flags/canada.svg",
+                    "itemVpnCode": "camo"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Americas - Other",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Argentina",
+                    "itemIconPath": "/media/flags/argentina.svg",
+                    "itemVpnCode": "ar"
+                },
+                {
+                    "itemLabel": "Bahamas",
+                    "itemIconPath": "/media/flags/bahamas.svg",
+                    "itemVpnCode": "bs"
+                },
+                {
+                    "itemLabel": "Bolivia",
+                    "itemIconPath": "/media/flags/bolivia.svg",
+                    "itemVpnCode": "bo"
+                },
+                {
+                    "itemLabel": "Costa Rica",
+                    "itemIconPath": "/media/flags/costarica.svg",
+                    "itemVpnCode": "cr"
+                },
+                {
+                    "itemLabel": "Mexico",
+                    "itemIconPath": "/media/flags/mexico.svg",
+                    "itemVpnCode": "mx"
+                },
+                {
+                    "itemLabel": "Brazil - 1",
+                    "itemIconPath": "/media/flags/brazil.svg",
+                    "itemVpnCode": "br"
+                },
+                {
+                    "itemLabel": "Brazil - 2",
+                    "itemIconPath": "/media/flags/brazil.svg",
+                    "itemVpnCode": "br2"
+                },
+                {
+                    "itemLabel": "Panama",
+                    "itemIconPath": "/media/flags/panama.svg",
+                    "itemVpnCode": "pa"
+                },
+                {
+                    "itemLabel": "Chile",
+                    "itemIconPath": "/media/flags/chile.svg",
+                    "itemVpnCode": "cl"
+                },
+                {
+                    "itemLabel": "Colombia",
+                    "itemIconPath": "/media/flags/colombia.svg",
+                    "itemVpnCode": "co"
+                },
+                {
+                    "itemLabel": "Venezuela",
+                    "itemIconPath": "/media/flags/venezuela.svg",
+                    "itemVpnCode": "ve"
+                },
+                {
+                    "itemLabel": "Ecuador",
+                    "itemIconPath": "/media/flags/ecuador.svg",
+                    "itemVpnCode": "ec"
+                },
+                {
+                    "itemLabel": "Guatemala",
+                    "itemIconPath": "/media/flags/guatemala.svg",
+                    "itemVpnCode": "gu"
+                },
+                {
+                    "itemLabel": "Peru",
+                    "itemIconPath": "/media/flags/peru.svg",
+                    "itemVpnCode": "pe"
+                },
+                {
+                    "itemLabel": "Uruguay",
+                    "itemIconPath": "/media/flags/uruguay.svg",
+                    "itemVpnCode": "uy"
+                }
+            ]
+        },
+        {
+            "groupLabel": "seperator"
+        },
+        {
+            "groupLabel": "Asia Pacific",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Singapore - Jurong",
+                    "itemIconPath": "/media/flags/singapore.svg",
+                    "itemVpnCode": "sgju"
+                },
+                {
+                    "itemLabel": "Singapore - CBD",
+                    "itemIconPath": "/media/flags/singapore.svg",
+                    "itemVpnCode": "sgcb"
+                },
+                {
+                    "itemLabel": "Singapore - Marina Bay",
+                    "itemIconPath": "/media/flags/singapore.svg",
+                    "itemVpnCode": "sgma"
+                },
+                {
+                    "itemLabel": "Hong Kong - 1",
+                    "itemIconPath": "/media/flags/hongkong.svg",
+                    "itemVpnCode": "hk1"
+                },
+                {
+                    "itemLabel": "Hong Kong - 2",
+                    "itemIconPath": "/media/flags/hongkong.svg",
+                    "itemVpnCode": "hk2"
+                },
+                {
+                    "itemLabel": "Japan - Tokyo - 1",
+                    "itemIconPath": "/media/flags/japan.svg",
+                    "itemVpnCode": "jpto"
+                },
+                {
+                    "itemLabel": "Japan - Shibuya",
+                    "itemIconPath": "/media/flags/japan.svg",
+                    "itemVpnCode": "josh"
+                },
+                {
+                    "itemLabel": "Japan - Yokohama",
+                    "itemIconPath": "/media/flags/japan.svg",
+                    "itemVpnCode": "jpyo"
+                },
+                {
+                    "itemLabel": "Japan - Tokyo - 2",
+                    "itemIconPath": "/media/flags/japan.svg",
+                    "itemVpnCode": "jpto2"
+                },
+                {
+                    "itemLabel": "South Korea",
+                    "itemIconPath": "/media/flags/southkorea.svg",
+                    "itemVpnCode": "kr2"
+                },
+                {
+                    "itemLabel": "Malaysia",
+                    "itemIconPath": "/media/flags/malaysia.svg",
+                    "itemVpnCode": "my"
+                },
+                {
+                    "itemLabel": "Philippines",
+                    "itemIconPath": "/media/flags/philippines.svg",
+                    "itemVpnCode": "ph"
+                },
+                {
+                    "itemLabel": "Thailand",
+                    "itemIconPath": "/media/flags/thailand.svg",
+                    "itemVpnCode": "th"
+                },
+                {
+                    "itemLabel": "Indonesia",
+                    "itemIconPath": "/media/flags/indonesia.svg",
+                    "itemVpnCode": "id"
+                },
+                {
+                    "itemLabel": "Sri Lanka",
+                    "itemIconPath": "/media/flags/srilanka.svg",
+                    "itemVpnCode": "lk"
+                },
+                {
+                    "itemLabel": "Pakistan",
+                    "itemIconPath": "/media/flags/pakistan.svg",
+                    "itemVpnCode": "pk"
+                },
+                {
+                    "itemLabel": "Taiwan",
+                    "itemIconPath": "/media/flags/taiwan.svg",
+                    "itemVpnCode": "tw3"
+                },
+                {
+                    "itemLabel": "Vietnan",
+                    "itemIconPath": "/media/flags/vietnam.svg",
+                    "itemVpnCode": "vn"
+                },
+                {
+                    "itemLabel": "Macau",
+                    "itemIconPath": "/media/flags/macau.svg",
+                    "itemVpnCode": "mo"
+                },
+                {
+                    "itemLabel": "Cambodia",
+                    "itemIconPath": "/media/flags/cambodia.svg",
+                    "itemVpnCode": "kh"
+                },
+                {
+                    "itemLabel": "Mongolia",
+                    "itemIconPath": "/media/flags/mongolia.svg",
+                    "itemVpnCode": "mn"
+                },
+                {
+                    "itemLabel": "Laos",
+                    "itemIconPath": "/media/flags/laos.svg",
+                    "itemVpnCode": "la"
+                },
+                {
+                    "itemLabel": "Myanmar",
+                    "itemIconPath": "/media/flags/myanmar.svg",
+                    "itemVpnCode": "mm"
+                },
+                {
+                    "itemLabel": "Nepal",
+                    "itemIconPath": "/media/flags/nepal.svg",
+                    "itemVpnCode": "np"
+                },
+                {
+                    "itemLabel": "Uzbekistan",
+                    "itemIconPath": "/media/flags/uzbekistan.svg",
+                    "itemVpnCode": "uz"
+                },
+                {
+                    "itemLabel": "Bangladesh",
+                    "itemIconPath": "/media/flags/bangladesh.svg",
+                    "itemVpnCode": "bd"
+                },
+                {
+                    "itemLabel": "Bhutan",
+                    "itemIconPath": "/media/flags/bhutan.svg",
+                    "itemVpnCode": "bt"
+                },
+                {
+                    "itemLabel": "Brunei",
+                    "itemIconPath": "/media/flags/brunei.svg",
+                    "itemVpnCode": "bnbr"
+                }
+            ]
+        },
+        {
+            "groupLabel": "Middle East and Africa",
+            "groupIconPath": "/media/icons/groupflags.svg",
+            "items": [
+                {
+                    "itemLabel": "Algeria",
+                    "itemIconPath": "/media/flags/algeria.svg",
+                    "itemVpnCode": "dz"
+                },
+                {
+                    "itemLabel": "Egypt",
+                    "itemIconPath": "/media/flags/egypt.svg",
+                    "itemVpnCode": "eg"
+                },
+                {
+                    "itemLabel": "Kenya",
+                    "itemIconPath": "/media/flags/kenya.svg",
+                    "itemVpnCode": "ke"
+                },
+                {
+                    "itemLabel": "South Africa",
+                    "itemIconPath": "/media/flags/southafrica.svg",
+                    "itemVpnCode": "za"
+                },
+                {
+                    "itemLabel": "Israel",
+                    "itemIconPath": "/media/flags/israel.svg",
+                    "itemVpnCode": "il"
+                }
+            ]
+        }
+    ]
+}

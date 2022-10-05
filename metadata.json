@@ -1,0 +1,13 @@
+{
+  "name": "EVPN Shell Assistant",
+  "description": "Allows ExpressVPN to be controlled through the GNOME shell.",
+  "original-author": "Stuart Gilmour",
+  "uuid": "evpn-assistant@xytrexl.com",
+  "gettext-domain": "gnome-shell-extension-evpn-assistant",
+  "settings-schema": "org.gnome.shell.extensions.evpn-assistant",
+  "url": "https://github.com/stuartjamesgilmour/evpn-assistant",
+  "version": "1.0.0",
+  "shell-version": [
+    "42"
+  ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+ <enum id="org.gnome.shell.extensions.evpn-assistant.position">
+    <value value="0" nick="center"/>
+    <value value="1" nick="right"/>
+    <value value="2" nick="left"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.evpn-assistant" path="/org/gnome/shell/extensions/evpn-assistant/">
+    <key name="position-in-panel" enum="org.gnome.shell.extensions.evpn-assistant.position">
+      <default>'center'</default>
+      <summary>Position in Panel</summary>
+    </key>
+    <key type="i" name="prefs-default-width">
+      <default>650</default>
+      <summary>Default width for the preferences window</summary>
+    </key>
+    <key type="i" name="prefs-default-height">
+      <default>892</default>
+      <summary>Default height for the preferences window</summary>
+    </key>
+    <key type="i" name="polling-interval">
+      <default>60</default>
+      <summary>Polling interval in seconds for refreshing the VPN status</summary>
+    </key>
+    <key type="b" name="polling-on-off-toggle">
+      <default>true</default>
+      <summary>Ability to turn polling on or off - true means enabled</summary>
+    </key>
+    <key type="b" name="logging-on-off-toggle">
+      <default>false</default>
+      <summary>Ability to turn on logging to assist resolving any issues - true means enabled</summary>
+    </key>
+    <key type="s" name="custom-group-icon-colour">
+      <default>'rgb(255,120,0)'</default>
+      <summary>Customise the group icon colour</summary>
+    </key>
+    <key type="s" name="custom-menu-label-text-colour">
+      <default>'rgb(237,51,59)'</default>
+      <summary>Custom the mneu label text colour</summary>
+    </key>
+  </schema>
+</schemalist>
