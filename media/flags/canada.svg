@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="flag-icons-ca" viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect width="640" height="384" style="paint-order: fill; stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" bx:origin="0 0">
+    <title>White background</title>
+  </rect>
+  <path fill="#d52b1e" d="M 194.391 189.229 C 203.333 180.462 189.148 153.858 184.626 137.835 C 197.885 140.656 217.724 147.912 223.583 145.594 C 229.442 142.974 232.526 131.486 236.946 124.432 L 271.175 162.524 C 274.464 164.237 277.342 163.229 278.473 160.206 L 263.568 80.394 L 288.443 94.099 C 290.088 95.309 292.041 95.107 293.994 93.293 L 319.897 42 L 345.081 91.379 C 346.52 93.797 348.678 94.704 350.837 93.797 L 376.946 79.387 L 360.499 159.702 C 361.424 162.927 363.069 164.539 366.975 163.532 L 402.54 125.238 L 412.717 143.881 C 415.286 150.834 454.449 137.633 454.449 137.633 C 452.394 155.168 438.62 182.88 448.282 190.236 L 460 194.368 L 392.775 249.289 C 388.664 264.204 392.673 269.141 397.195 278.513 L 324.009 270.048 L 327.401 341.496 L 312.188 342 L 314.038 269.948 L 241.057 279.017 C 245.477 271.157 252.364 266.824 247.225 251.909 L 180 193.965 L 194.391 189.128 L 194.391 189.229 Z" style="pointer-events: none;">
+    <title>Maple Leaf</title>
+  </path>
+  <rect width="140" height="384" style="paint-order: stroke markers; fill: rgb(213, 43, 30);" bx:origin="0 0">
+    <title>Red Line Left</title>
+  </rect>
+  <rect width="140" height="384" style="paint-order: stroke markers; fill: rgb(213, 43, 30);" x="501" bx:origin="0 0">
+    <title>Red Line Right</title>
+  </rect>
+</svg>

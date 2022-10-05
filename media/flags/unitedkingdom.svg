@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="flag-icons-gb" viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g transform="matrix(1.25, 0, 0, 0.75, 0, 0)" style="visibility: hidden;">
+    <path d="M 0 0 L 512 0 L 512 512 L 0 512 L 0 0 Z" style="visibility: visible;" fill="#012169"/>
+    <path fill="#FFF" d="M 512 0 L 512 16.708 L 297.564 257.885 L 512 466.07 L 512 512 L 477.6 512 L 244.96 272.566 L 41.413 512 L 0 512 L 0 477.354 C 0 476.887 189.436 250.482 189.443 251.596 L 0 57.048 L 0 0 L 36.171 0 L 249.408 236.01 L 467.502 0 L 512 0 Z" style="visibility: visible;"/>
+    <path fill="#C8102E" d="M 164.445 314.948 L 187.484 314.722 L 29.207 512 L 0 512 L 164.429 314.958 L 164.466 314.955 L 164.445 314.948 Z M 312.773 314.537 L 339.701 315.636 L 512 479.364 L 512 512 L 312.773 314.537 Z M 512 0 L 342.956 192.617 L 312.74 192.522 L 484.685 0 L 512 0 Z M 0 1 L 187.23 192.807 L 150.4 192 L 0 41.333 L 0 1 Z" style="visibility: visible;"/>
+    <path fill="#FFF" d="M 187.284 0.561 L 187.2 512 L 312.8 512 L 312.8 0 L 187.28 0 L 187.2 0.533 L 187.28 0 Z M 0.169 193.123 C 0.169 193.123 0 210.667 0 314.667 L 512 314.667 L 512 192 L 0 193.333 L 0 192 L 0.169 193.123 Z" style="visibility: visible;" bx:origin="0.5 0.5"/>
+    <path fill="#C8102E" d="M 0 210.851 C 0 210.851 0 266.684 0 294.667 L 512 294.667 L 512 210.667 L 0 210.667 L 0 210.851 Z M 205.474 0 L 208 512 L 294.4 512 L 294.4 0 L 205.44 0 L 208 0 L 205.474 0 Z" style="visibility: visible;"/>
+  </g>
+</svg>

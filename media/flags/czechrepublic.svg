@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="flag-icons-cz" viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg">
+  <g style="" transform="matrix(1, 0, 0, 0.751903, 0, 0)">
+    <path fill="#fff" d="M 0 0 L 637.272 0 L 637.272 510.445 L 0 510.445 L 0 0 Z" style="pointer-events: none;"/>
+    <path fill="#d7141a" d="M 0 255.482 L 639.416 255.482 L 639.416 512 L 0 512 L 0 255.482 Z" style="pointer-events: none;"/>
+    <path fill="#11457e" d="M 296.883 255.19 L 0 0 L 0 510.381 L 296.883 255.19 Z" style="pointer-events: none;"/>
+  </g>
+</svg>

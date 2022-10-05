@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="flag-icons-bg" viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g fill-rule="evenodd" stroke-width="1pt">
+    <path fill="#fff" d="M 0 0 L 640 0 L 640 128 L 0 128 L 0 0 Z" style="pointer-events: none;" bx:origin="0 0"/>
+    <path fill="#00966e" d="M 0 128 L 640 128 L 640 298.6 L 0 298.6 L 0 128 Z" style="pointer-events: none;" bx:origin="0.5 0.5"/>
+    <path fill="#d62612" d="M 0 256 L 640 256 L 640 384 L 0 384 L 0 256 Z" style="pointer-events: none;"/>
+  </g>
+</svg>

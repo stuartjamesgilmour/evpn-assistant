@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="flag-icons-de" viewBox="0 0 640 384" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.25, 0, 0, 0.75, 0, 0)">
+    <path fill="#ffce00" d="M 0 341.3 L 512 341.3 L 512 512 L 0 512 L 0 341.3 Z"/>
+    <path d="M 0 0 L 512 0 L 512 170.7 L 0 170.7 L 0 0 Z"/>
+    <path fill="#d00" d="M 0 170.7 L 512 170.7 L 512 341.3 L 0 341.3 L 0 170.7 Z"/>
+  </g>
+</svg>
