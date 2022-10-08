@@ -169,6 +169,35 @@ var EvpnAssistMenu = GObject.registerClass(
                }
           }
 
+          //
+          // Provide cleanup
+          //
+
+          destroy()
+          {
+               Utils.logDebug("Calling destroy");
+
+               // If the startup signal hasn't already been disconnected then do so here. This should already be
+               // disconnected when the event is triggered as the lambda function clears itself on the fired event
+               if (this._startingUpSignal !== undefined)
+               {
+                    Utils.logDebug(`Startup signal has not been disconnected, so doing it now...`);
+
+                    Main.layoutManager.disconnect(this._startingUpSignal);
+                    this._startingUpSignal = undefined;
+               }
+
+               // Remove evpn poll status timeout
+               if (this.pollHandle !== undefined)
+               {
+                    Utils.logDebug(`Removing evpn poll status...`);
+                    clearTimeout(this.pollHandle);
+                    this.pollHandle = undefined;
+               }
+
+               super.destroy();
+          }
+
           _buildMenuFromFile()
           {
                Utils.logDebug("Creating menu from JSON file");
@@ -526,7 +555,7 @@ var EvpnAssistMenu = GObject.registerClass(
           }
 
           //
-          // Opens up the prefereneces menu
+          // Opens up the preference's menu
           //
 
           _performSettingsMenuAction()
@@ -613,7 +642,8 @@ var EvpnAssistMenu = GObject.registerClass(
 
                try
                {
-                    clearTimeout(this.pollHandle);
+                    if (this.pollHandle !== undefined)
+                         clearTimeout(this.pollHandle);
                }
                catch (error)
                {
@@ -645,10 +675,10 @@ var EvpnAssistMenu = GObject.registerClass(
                     if (Symbol.keyFor(vpnStatus).toString() === "Disconnected" || Symbol.keyFor(vpnStatus).toString() === "Disconnecting")
                          Utils.logDebug("*** NEGOTIATING ***");
 
-                    // Uodates the shell tray icon
+                    // Updates the shell tray icon
                     super.UpdateVpnIconStatus(vpnStatus);
 
-                    // Calls this function again at a specifed poll interval
+                    // Calls this function again at a specified poll interval
                     var t = this;
                     this.pollHandle = setTimeout(function () { t.PollStatus() }, this._pollingInterval * 1000);
                     Utils.logDebug(`Polling set to: ${this._pollingInterval} seconds.`);

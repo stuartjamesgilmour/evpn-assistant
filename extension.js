@@ -76,26 +76,6 @@ class EvpnAssistant
 
     disable()
     {
-        // If the startup signal hasn't already been disconnected then do so here. This should already be
-        // disconnected when the event is triggered as the lambda function clears itself on the fired event
-        if (evpnAssistantMenu._startingUpSignal !== undefined)
-        {
-            log(`Startup signal has not been disconnected, so doing it now...`);
-
-            Main.layoutManager.disconnect(evpnAssistantMenu._startingUpSignal);
-            evpnAssistantMenu._startingUpSignal = undefined;
-        }
-
-        // Stop polling
-        evpnAssistantMenu.StopVpnStatusPolling();
-
-        // Remove evpn poll status timeout
-        if (evpnAssistantMenu.pollHandle)
-        {
-            log(`Removing evpn poll status...`);
-            clearTimeout(evpnAssistantMenu.pollHandle);
-        }
-
         // Disconnect all menu signals
         evpnAssistantMenu.disconnectSignals(true);
         evpnAssistantMenu.destroy();
