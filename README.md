@@ -75,7 +75,7 @@ https://github.com/aha999/DonateButtons
 This extension was written to supports Gnome Shell version 42, 42.4 and will most likely work for 43. This is correct as of the 02/10/2022.
 
 ## Installation from e.g.o
-https://extensions.gnome.org/extension/xxxx/evpn-assistant
+https://extensions.gnome.org/extension/5385/evpn-shell-assistant/
 
 ## Manual installation
 
